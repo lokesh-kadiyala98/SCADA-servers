@@ -10,10 +10,10 @@ import org.springframework.web.socket.config.annotation.WebSocketHandlerRegistry
 
 @SpringBootApplication
 @EnableWebSocket
-public class DemoApplication implements WebSocketConfigurer {
+public class Application implements WebSocketConfigurer {
 
     public static void main(String[] args) {
-        SpringApplication.run(DemoApplication.class, args);
+        SpringApplication.run(Application.class, args);
     }
 
     @Override

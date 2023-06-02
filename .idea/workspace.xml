@@ -4,29 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9df94a00-837f-4f4e-9026-29133d7d4da0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/demo/AppConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/demo/DemoApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/demo/WebSocketConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/demo/controller/PersonController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/demo/controller/ScadaTagController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/demo/event/ScadaTagUpdateEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/demo/listener/ScadaTagUpdateListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/demo/model/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/demo/model/ScadaTag.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/demo/repository/PersonRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/demo/repository/ScadaTagRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/demo/service/PersonService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/demo/service/ScadaTagService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/demo/websocket/ScadaTagWebSocketHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+    <list default="true" id="9df94a00-837f-4f4e-9026-29133d7d4da0" name="Changes" comment="init commit">
+      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/example/demo/DemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/example/demo/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/example/demo/WebSocketConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/example/demo/controller/PersonController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/example/demo/model/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/example/demo/repository/PersonRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/example/demo/service/PersonService.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,8 +49,8 @@
   }
 }]]></component>
   <component name="RunManager">
-    <configuration name="DemoApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="example.demo.DemoApplication" />
+    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="example.demo.Application" />
       <module name="SampleJavaAPI" />
       <extension name="coverage">
         <pattern>
@@ -91,6 +77,14 @@
       <option name="presentableId" value="Default" />
       <updated>1685343427536</updated>
     </task>
+    <task id="LOCAL-00001" summary="init commit">
+      <created>1685391508395</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1685391508395</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -103,5 +97,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="init commit" />
   </component>
 </project>
